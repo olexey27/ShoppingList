@@ -7,27 +7,39 @@
 <body>
 <header>
     <h1>Einkaufsliste</h1>
-    <nav>Artikel hinzufügen +</nav>
+    <input type="text" placeholder="Artikel hinzufügen">
+    <select name="Kategorie">
+        <option value="O1">Kategorie</option>
+        <option value="O1">Gemüse</option>
+        <option value="O2">Obst</option>
+        <option value="O3">Wurst</option>
+        <option value="O4">Käse</option>
+    </select>
+    <button>Add</button>
 </header>
 <hr>
 <main>
     <section>
         <h2>Einkaufen</h2>
-        <nav>Brokkoli</nav>
-        <nav>Reis</nav>
-        <nav>Streukäse</nav>
+        <nav style="background-color: #99E7FF">Obst & Gemüse</nav>
+        <nav>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox">Brokkoli</nav>
+        <nav style="background-color: #99E7FF">Getreideprodukte</nav>
+        <nav>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox">Reis</nav>
+        <nav style="background-color: #99E7FF">Milchprodukte</nav>
+        <nav>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox">Streukäse</nav>
     </section>
     <hr>
     <section>
     <h2>Erledigt</h2>
-        <nav>Tofu</nav>
+        <nav style="background-color: #99E7FF">Hülsenfrüchte</nav>
+        <nav>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" checked><s>Tofu</s></nav>
     </section>
 </main>
 <hr>
 <footer>
-<div>Gruppen</div>
-<div>Sortieren</div>
-<div>Einstellungen</div>
+    <button class=“btn”><i class=“fas fa-hamburger”></i> Gruppen</button>
+    <button class=“btn”><i class=“fas fa-sort-amount-down”></i> Sortieren</button>
+    <button class=“btn”><i class=“fas fa-cog”></i> Einstellungen</button>
 </footer>
 </body>
 </html>
