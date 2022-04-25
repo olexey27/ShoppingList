@@ -2,6 +2,8 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet"
+          href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
     <title>Einkaufsliste</title>
 </head>
 <body>
@@ -15,31 +17,34 @@
         <option value="O3">Wurst</option>
         <option value="O4">Käse</option>
     </select>
-    <button>Add</button>
+    <button>+</button>
 </header>
 <hr>
 <main>
     <section>
         <h2>Einkaufen</h2>
         <nav style="background-color: #99E7FF">Obst & Gemüse</nav>
-        <nav>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox">Brokkoli</nav>
+        <dd><input type="checkbox">Brokkoli</dd>
         <nav style="background-color: #99E7FF">Getreideprodukte</nav>
-        <nav>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox">Reis</nav>
+        <dd><input type="checkbox">Reis</dd>
         <nav style="background-color: #99E7FF">Milchprodukte</nav>
-        <nav>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox">Streukäse</nav>
+        <dd><input type="checkbox">Streukäse</dd>
     </section>
     <hr>
     <section>
-    <h2>Erledigt</h2>
+        <h2>Erledigt</h2>
         <nav style="background-color: #99E7FF">Hülsenfrüchte</nav>
-        <nav>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" checked><s>Tofu</s></nav>
+        <dd><input type="checkbox" checked><s>Tofu</s></dd>
     </section>
 </main>
 <hr>
 <footer>
-    <button class=“btn”><i class=“fas fa-hamburger”></i> Gruppen</button>
-    <button class=“btn”><i class=“fas fa-sort-amount-down”></i> Sortieren</button>
-    <button class=“btn”><i class=“fas fa-cog”></i> Einstellungen</button>
+    <button><span class="material-symbols-outlined">group</span> Gruppen
+    </button>
+    <button><span class="material-symbols-outlined">menu</span> Sortieren
+    </button>
+    <button><span class="material-symbols-outlined">settings</span> Einstellungen
+    </button>
 </footer>
 </body>
 </html>
